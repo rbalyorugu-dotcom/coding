@@ -32,4 +32,32 @@ number = 3
 
 print(age + number) #19
 
-print(age)
+print(2>1)
+
+
+
+
+
+print(2!= 3) # NOT the same
+
+# Logical Operator Family
+# it checks and compares if certain code conditions are true or false
+
+print(3 > 1 and "Robert" == "Robert")
+# the AND operator checks to see BOTH conditions are true.
+# If BOTH are TRUE the answer is TRUE.
+
+print(2 == 1 or 3 > 2)
+# the AND operator checks to see if ONE of the conditions is TRUE.
+# So long as ONE of the conditions is TRUE, it will be TRUE.
+
+print(not(3 > 1 and "Robert" == "Robert"))
+#The NOT operator will give the oposite result.
+# the NOT operator flips the result.
+
+algebraPassed = True
+historyPassed = True
+
+# does this person need credit recovery
+# true means they passed
+print(not(algebraPassed== True and historyPassed == True))
