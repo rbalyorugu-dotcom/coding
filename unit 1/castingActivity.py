@@ -2,23 +2,29 @@
 # in the programing language. So long as you know the
 # keyboard you can use it's power.
 
-#print('Robert')
-#print(399)
-#print(True)
+# str(changes any data type into a string)
+# innt()
+# float(changes any data type into a decimal)
 
-# input() function - this is a built-in function that allows users to
-# type data into a program and assign it to a variable. the newly
-# inputed data will ALWAYS be treated as a STRING.
 
+# problem 1
+name = input('What is your name: ')
+Age = input('What is your age: ')
 #time = input('Good morning. What time is it?')
-#name = input("what is your name")
+print ('Hello my name is' + Robert + ' Iam ' + 17 + years old. ')
+# String concatenation
 
-# when we combine 2 or more strings together with the plus sign.
-# it is called string concatration
+# problem 2
+Bonus = 200
+# print(300 + int(Bonus)) # result should be 500
 
-#print('The current time is ' + time)
-#print('have a nice day ' + name )
+#print(300 + Bonus) # result should be 500
+# problem 3
 
-number = input 
 
-print(3 * int(number))
+# HINT: use w3schools to find a data casting function that will change
+# a data type into a boolean
+
+Value = 10
+
+print(True == bool(Value)) # result should be true
