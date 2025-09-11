@@ -11,20 +11,23 @@
 name = input('What is your name: ')
 Age = input('What is your age: ')
 #time = input('Good morning. What time is it?')
-print ('Hello my name is' + Robert + ' Iam ' + 17 + years old. ')
+print ('Hello my name is' + 'Robert' + 17 + ' years old. ')
 # String concatenation
 
 # problem 2
-Bonus = 200
+Bonus = '200'
 # print(300 + int(Bonus)) # result should be 500
+
+# print(300 + int(200)) = 500
 
 #print(300 + Bonus) # result should be 500
 # problem 3
-
+print(300 + 200) = 500
 
 # HINT: use w3schools to find a data casting function that will change
 # a data type into a boolean
 
-Value = 10
+Value = '200'
 
-print(True == bool(Value)) # result should be true
+print(Value.lower() '==' 'true')
+# result should be true
