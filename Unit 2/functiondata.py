@@ -59,6 +59,9 @@ trianglearea(20, 15, 23, 6,900)
 # Fahrenheit - int(32 * 5/9)
 
 
-def temperatureCoverter(fahrenheit, celsius)
+def fahrenheitConverter(fahrenheit, celsius)
     celsius = fahrenheit - 32 * 5/9
     print('celsius' + 'is equal  to' 'fahrenheit' + int(32) * 5/9)
+    print(fahrenheit = 50 degrees)
+
+fahrenheitConverter(10 degrees celsius)
