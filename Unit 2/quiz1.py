@@ -20,7 +20,7 @@ print(30/ 232)
 # and 
 # ==
 # >
-"These symbols belong to the logical operator family."
+"These symbols belong to the comparison operator family."
 # 4. Explain the difference between the = operator and the == operator.
 # Please write your response in complete sentences.
 "The == operator compares if the values are the same." "The = operator assigns a value to a variable."
@@ -57,5 +57,4 @@ def comparevalues():
     user_value = int(input(10)
     print(20 > 10)
     print(False)
-    comparev
                     
