@@ -1,8 +1,12 @@
 # Conditional statements = code that has a set of outcomes
 # based on the data that is given.
+# input--> condition --> output
 
 # Conditional syntax = if / else
 # If = the condition we are looking to satisfy
+
+# Elif keyboard - same thing as the if keyboard
+
 # Else = the default/ exit. The thing that happens
 # When our condition is NOT satisfied.
 
@@ -62,8 +66,37 @@ def pw():
 
 def student_age():
     if student_age >= 16:
-        print('Congragulations, you can begin learning to drive')
+        print('Congragulations, you can get your driver permit.')
     else:
-        print("Sorry, you're not old enough yet") 
+        print("Sorry, you're not old enough yet.") 
     
 student_age()
+
+# Activity 2
+# Create a function that will determine if a number is positive or negative.
+# If a number is positive, it should print a message saying "this is positive."
+# otherwise, the number must be negative
+
+def numberCheck(number):
+    if number == 'positive':
+        print('This number is positive')
+    else:
+        print('This number is negative')
+
+# Activity 3
+# Create a grade score checker function that allows a student to enter
+# their numerical grade, and show them the letter grade. Your function
+# should be able to process the grades as followed. If a grade number is
+# below 70, it is an F. If a grade is above 70 and below 80, it is a C.
+# if a grade is above 80 and below 90, it is a B.
+# and lastly if a grade is above 90, its an A.
+
+def gradeChecker(grade):
+    if grade < 70:
+        print('Your grade is a F')
+    elif grade > 70 and < 80:
+        print('Your grade is a C')
+    elif grade > 80 and < 90:
+        print('Your grade is a B')
+    else grade > 90:
+        print('Your grade is an A')
