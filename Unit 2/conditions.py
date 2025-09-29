@@ -83,6 +83,8 @@ def numberCheck(number):
     else:
         print('This number is negative')
 
+numberCheck()
+
 # Activity 3
 # Create a grade score checker function that allows a student to enter
 # their numerical grade, and show them the letter grade. Your function
@@ -94,9 +96,12 @@ def numberCheck(number):
 def gradeChecker(grade):
     if grade < 70:
         print('Your grade is a F')
-    elif grade > 70 and < 80:
+    elif grade > 70 < 80:
         print('Your grade is a C')
-    elif grade > 80 and < 90:
+    elif grade > 80 < 90:
         print('Your grade is a B')
-    else grade > 90:
+    elif grade > 90:
         print('Your grade is an A')
+    else grade = 100:
+
+gradeChecker()
