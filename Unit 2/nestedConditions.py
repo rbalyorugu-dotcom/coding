@@ -32,7 +32,7 @@ def sandwichStore():
 sandwichStore()
 
 def atm():
-    balance = 2000
+    balance = 5000
     pin = 1234
     
     userPin = int(input("please type in your bank pin number:"))
@@ -45,13 +45,35 @@ def atm():
         if selection == 1:
             amount = int(input("How much do you want to take out? "))
             if amount > balance:
-            print("Sorry, you don't have that much in your account.")
+                print("Sorry, you don't have that much in your account.")
         else:
             newBalance = balance- amount
+            print("You are taking out: " + str(amount))
             print("Your new balance is:" +str(newBalance))
+    elif selection == 2:
+        print("How much would you like to deposit?")
+        amount = int(input())
+        newBalance = balance > amount
+        print("you are adding: " + str(amount))
+        print("your new balance is : " + str(newBalance))
+    elif selection == 3:
+        print("Your balance is: " + str(balance))
     else:
         print("Sorry incorrect.")
         atm()
+
 atm()
 
-userPin = int(input("please type in your bank pin number:"))
+
+# Python Lists = a way to organize data, regardless of data type.
+
+# List Syntax- create a variable and then assign it to square brackets.
+# write the data you want in your list in the square brackets.
+
+groceries = ('words', 19, 12.3, True, 'new words')
+
+print("1. Withdraw money")
+print("2. Deposit money")
+print("3. Check balance")
+
+atmMenu = ("1. Withdraw money", 2. Deposit money, 3. Check balance")
