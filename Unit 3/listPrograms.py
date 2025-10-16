@@ -27,7 +27,6 @@ def restaurantmenu():
         print("3. sausages and toast")
         meal = int(input())
         if meal == 1:
-            print("eggs and bacon")
+            print("Here are your eggs and bacon. Enjoy!")
         elif meal == 2:
-            print("")
-
+            print("Here are your pancakes. Enjoy!")
