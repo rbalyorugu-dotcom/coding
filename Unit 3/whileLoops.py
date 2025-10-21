@@ -51,3 +51,5 @@ while timer 30 - 1
     timer = -1
     print(timer)
     print('Done counting')
+
+countdown()

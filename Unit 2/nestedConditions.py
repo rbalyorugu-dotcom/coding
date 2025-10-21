@@ -76,4 +76,4 @@ print("1. Withdraw money")
 print("2. Deposit money")
 print("3. Check balance")
 
-atmMenu = ("1. Withdraw money", 2. Deposit money, 3. Check balance")
+atmMenu = ("1." "Withdraw money", 2. "Deposit money", 3. "Check balance")
