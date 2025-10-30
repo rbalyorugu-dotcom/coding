@@ -34,3 +34,22 @@ def numberLoop():
     else:
         print("loop has ended")
     
+    numberLoop()
+
+
+def guesstheNumber():
+    correctNumbers = [8]
+     userNumber = int(input("Please guess a number: "))
+    while userNumber != 'correctNumber':
+         if userNumber > 8:
+             print("Error! The number you guessed was too high.")
+            userNumber = int(input("Please guess a number: "))
+        else:
+            print("Error! The number you guessed was too low.")
+            userNumber = int(input("Please guess a number: "))
+    else:
+        print("Congrats! You guessed the correct number.")
+    
+guesstheNumber()
+
+
