@@ -50,7 +50,7 @@ def tf():
 
 
 # looping through stringgs
-word = "Python"
+# word = "Python"
 for letter in word:
     print(letter)
     if letter == "p":
@@ -103,3 +103,26 @@ for student in studentBody:
 # If you want to hack hypothetical attendence system to always be present
 # if student.name == 'Ian Kimble':
 # superhacking
+
+
+
+
+phoneShipment = []
+
+for x in range(10): # - this loop is telling the computer to do these steps 10 times
+    print("1 - I make phone case.")
+    print("2 - solder motherboard and chips to case.")
+    print("3 - put screen on casting.")
+    print("4 - check to confirm phone can turn on.")
+    doesPhoneWork = input('does this phone work? ')
+    if doesPhoneWork != 'true':
+        phone = 'this is phone number: ' + str(x)
+        print('this phone does not work.')
+        defectivePhones.append(phone)
+    else:
+        print("5 - place phone in shipment box.")
+        phone = 'this is phone number: ' + str(x)
+        phoneShipment.append(phone)
+
+    print(phoneShipment)
+    print(defectivePhones)
