@@ -126,3 +126,20 @@ for x in range(10): # - this loop is telling the computer to do these steps 10 t
 
     print(phoneShipment)
     print(defectivePhones)
+
+
+
+
+    def signup():
+        dob = input('what year were you born.'))
+        tiktok kids = []
+        tiktok teens = []
+        tiktok standard = []
+        # 8 - 12 is kids
+        # 13 - 18 is teen
+        # 19 is adult
+        currentYr = 2025
+        usrAge = currentYr- dob
+        if usrAge > 8 and usrAge < 12
+            print('Welcome to tiktok kids')
+            tiktok_kids.append(usrAge)
