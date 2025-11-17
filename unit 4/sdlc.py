@@ -3,8 +3,8 @@
 # optiion 1 - Add more ways to verify people.
 # option 2 - Make a different version of tik-tok
 
- def signup():
-        dob = input('what year were you born.'))
+def signup():
+        dob = input('what year were you born.')
         tiktok_kids = []
         tiktok_teens = []
         tiktok_standard = []
@@ -47,10 +47,24 @@ signup()
 
 
 def calculator():
-    numbers = input("input your numbers"))
+    numbers = input("input your numbers")
     addition = []
     subtraction = []
     square root = []
-    dividde = []
+    divide = []
     print("Be able to do addition")
+    numbers = input
+    x = int(input("pleaese type in number"))
+    y = int(input("please type in number"))
+    x = input(4)
+    y = input(10)
+    sum = int(4) + int(10)
+    print("The sum is: 14")
+    if subtraction:
+         difference = int(4) - int(10)
+         print("The difference is -6")
+    elif divide:
+         quotient = int(4) / int(10)
+         print("The quotient is 0.4")
+    
     
