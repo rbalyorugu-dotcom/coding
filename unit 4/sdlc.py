@@ -22,7 +22,7 @@ def signup():
         else:
             print('welcome to the cesspool known as tik tok')
             tiktok_standard.append(usrAge)
-signup()
+
 
 
 
@@ -39,7 +39,7 @@ signup()
 # examples
 "Be able to do addition"
 "Be able to subtract"
-"Be able to find the square root"
+"Be able to find the product"
 "Be able to divide"
 
 # Step 2. analysis and requirement - how would you code out your calculator
@@ -50,21 +50,23 @@ def calculator():
     numbers = input("input your numbers")
     addition = []
     subtraction = []
-    square root = []
+    product = []
     divide = []
     print("Be able to do addition")
     numbers = input
-    x = int(input("pleaese type in number"))
-    y = int(input("please type in number"))
     x = input(4)
     y = input(10)
-    sum = int(4) + int(10)
+    sum = int(x) + int(y)
     print("The sum is: 14")
     if subtraction:
-         difference = int(4) - int(10)
+         difference = int(x) - int(y)
          print("The difference is -6")
     elif divide:
-         quotient = int(4) / int(10)
+         quotient = int(x) / int(y)
          print("The quotient is 0.4")
-    
+    else:
+         product = int(x) * int(y)
+         print("The product is 40")
+
+calculator()
     
