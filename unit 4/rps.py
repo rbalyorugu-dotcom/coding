@@ -36,3 +36,36 @@
 'Step. 5: Computer makes a random selection'
 'Step. 6: determine and the user/player if they won, lose, or tied'
 'Step. 7: (LOOP)  Show the user the RPS options and they will continue to play up '
+
+# development
+
+def RPSgame():
+    RPSoptions = ["rock", "paper", "scissors"]
+
+print("Welcome to Rock Paper Scissor: the game!")
+print("Please select one of the following: ")
+print("Enter p to start game.")
+print("Enter r to see the  rules.")
+selection = input()
+if selection == 'r':
+    print("here are the game rules...")
+elif selection == 'paper':
+    print("the game is starting...")
+    choiceUser = input("please make selection, r=rock, p=paper, s=scissor")
+    choiceCPU = random.choice(RPSoptions_cpu)
+    # make a way to show the full selection word ; example: if s, the program should print scissor
+    print("user selected: " + choiceUser)
+    print("CPU selected: "+ choiceCPU)
+    if choiceUser = "r"
+       selectWord = "rock"
+       print("user selcted: " + selectWord)
+    elif choiceUser = "p"
+        selectWord = "paper"
+        print("user selected: " + choiceUser)
+        print("CPU selected: "+ choiceCPU)
+    elif 
+else:
+    print("Sorry, we didn't understand your entry.")
+
+
+RPSgame()
