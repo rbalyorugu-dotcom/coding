@@ -63,7 +63,7 @@ elif selection == 'paper':
         selectWord = "paper"
         print("user selected: " + choiceUser)
         print("CPU selected: "+ choiceCPU)
-    elif 
+    elif choice
 else:
     print("Sorry, we didn't understand your entry.")
 
