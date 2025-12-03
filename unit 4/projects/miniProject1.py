@@ -1,7 +1,26 @@
 def quiz():
-    5 multiple-choice questions = ["Which of these is a multiple of 24", "What is the square root of 121", "Which is an example of potential energy", "Does hypotonic water cause fresh plant cells to swell", "Is 24 a multiple of 12"]
-1 = "Which of these is a multiple of 24?"
-2 = "What is the square root of 121?"
-3 =  "What is an example of potential energy?"
-4 = "Does hypotoic water cause fresh plant cells to swell?"
-5 = "Is 24 a multiple of 12"
+    multiple_choicequestions = ["Which of these is a multiple of 24", "What is the square root of 121", "Which is an example of potential energy", "Does hypotonic water cause fresh plant cells to swell", "Is 24 a multiple of 12"]
+    print("Which of these is a multiple of 24?")
+    A = print("72")
+    B = print("18")
+    C = print("2")
+    D = print("1")
+    print("What is the square root of 121?")
+    A = print("11")
+    B = print("12")
+    C = print("9")
+    D = print("10")
+    print("What is an example of potential energy?")
+    A = print("Holding a ball in the air")
+    B = print("Pushing a box down a hill")
+    C = print("pulling a crate across the floor")
+    D = print("Throwing a football")
+    print("Does hypotoic water cause fresh plant cells to swell?")
+    A = print("Yes")
+    B = print("No")
+    print("Is 24 a multiple of 12")
+    A = print("Yes")
+    B = print("No")
+    userAnswer = input("Enter your answer:")
+    
+quiz()
