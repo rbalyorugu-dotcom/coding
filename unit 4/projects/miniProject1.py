@@ -65,3 +65,53 @@ def quiz():
         print('here is your final grade: '+ str(grade) + '/ 5')
     
 quiz()
+
+def pythonQuiz():
+    grade = 0
+    print("1. Which of the following is not a data type?")
+    print("A. Function")
+    print("B. Integer")
+    print("C. Float")
+    print("D. String")
+    userAnswer = input('')
+    correctAnswer = 'a'
+    if userAnswer = correctAnswer:
+        grade += 1
+        print("Correct")
+    else:
+        print("Incorrect")
+    
+    print("What is a function parameter?")
+    print("A. A function that uses data.")
+    print("B. An operator.")
+    print("C. A placeholder for a function.")
+    print("D. The actual value sent to a function.")
+    userAnswer = input('')
+    correctAnswer = 'b'
+    if userAnswer = correctAnswer:
+        grade += 1
+        print("Correct")
+    else:
+        print("Incorrect")
+
+    print("Which of these is an operator?")
+    print("A. Assignment.")
+    print("B. List")
+    print("C. Boolean")
+    print("D. casting")
+    userAnswer = input('')
+    correctAnswer = 'a'
+    if userAnswer = correctAnswer:
+        grade += 1
+        print("Correct.")
+    else:
+        print("Incorrect.")
+
+    print("Which symbols/characters represent true and false?")
+    print("A. and, not")
+    print("B. !=, == ")
+    print("C. 0, 100")
+    print("D. True, False")
+    userAnswer = input('')
+    correctAnswer = 'd'
+    if userAnswer = correctAnswer:
