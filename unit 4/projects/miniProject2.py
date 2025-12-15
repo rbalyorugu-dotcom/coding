@@ -6,51 +6,51 @@ def GPAcalculator():
     subject = input("Enter your subject: " )
     print("My subject is: " + subject)
     week = 1
-    grade =
+    grade = 90
     print("What was your grade for week 1?" + str(week))
     userGrade = input("Enter your grade:" + str(grade))
     userGrade = input("90")
     week = 2
-    grade =
+    grade = 90
     print("What is the grade for week 2" + str(week))
     userGrade = input("Enter your grade:" + str(grade))
     userGrade = input("100")
     week = 3
-    grade =
+    grade
     print("What is the grade for week 3" + str(week))
     userGrade = input("Enter your grade:" + str(grade))
     userGrade = input("100")
     week = 4
-    grade =
+    grade
     print("What is the grade for week 4 " + str(week))
     userGrade = input("Enter your grade:" + str(grade))
     userGrade = input("99")
     week = 5
-    grade =
+    grade
     print("What is the grade for week 5:" + str(week))
     userGrade = input("Enter your grade:" + str(grade))
     userGrade = input()
     week = 6
-    grade =
+    grade
     print("What is the grade for week 6:" + str(week))
     userGrade = input("Enter your grade:" + str(grade))
     userGrade = input()
     week = 7
-    grade =
+    grade
     print("What is the grade for week 7:" + str(week))
     userGrade = input("Enter your grade: " + str(grade))
     userGrade = input()
     week = 8
-    grade =
+    grade
     print("What is the grade for week 8:" + str(week))
     userGrade = input("Enter your grade:" + str(grade))
     week = 9
-    grade =
+    grade
     print("What is the grade for week 9:" + str(week))
     userGrade = input("Enter your grade: " + str(grade))
     userGrade = input()
     week = 10
-    grade =
+    grade
     print("What is the grade for week 10:" + str(week))
     userGrade = input("Enter your grade:" + str(grade))
     userGrade = input()
@@ -59,36 +59,37 @@ def GPAcalculator():
     userGrade = input("Enter your grade:" + str(grade))
     userGrade = input()
     week = 12
-    grade =
+    grade
     print("What is the grade for 12:" + str(week))
     userGrade = input("Enter your grade:" + str(grade))
     userGrade = input()
     week = 13
-    grade =
+    grade
     print("What is the grade for week 13:" + str(week))
     userGrade = input("Enter your grade:" + str(grade))
     userGrade = input()
     week = 14
-    grade =
+    grade
     print("What is the grade for week 14:" + str(week))
     userGrade = input("Enter your grade:" + str(grade))
     userGrade = input()
     week = 15
-    grade =
+    grade
     print("What is the grade for week 15:" + str(week))
     userGrade = input("Enter your grade:" + str(grade))
     userGrade = input()
     week = 16
-    grade =
+    grade
     print("What is the grade for week 16:" + str(week))
     userGrade = ("Enter your grade:" + str(grade))
     userGrade = ()
     week = 17
-    grade =
+    grade
     print("What is the grade for week 17:" + str(week))
     userGrade = input("Enter your grade:" + str(grade))
     userGrade = input()
 
-userGrade = input(90+100+100+99+100+100+100+100+100+100+100+100+100+100+100+100+100 / 17 =)
+print("Your GPA is: " +str(finalGPA))
+print(sum)
 
 GPAcalculator()
