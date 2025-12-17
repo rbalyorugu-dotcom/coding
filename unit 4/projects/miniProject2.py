@@ -109,7 +109,8 @@ def GPAcalculator():
     sum += userGrade
     print(sum)
 
-    finalGPA= sum / 17
+    finalGPA = sum / 17
+weeks = ["week 1, week 2, week 3, week 4, week 5, week 6, week 7, week 8, week 9, week 10, week 11, week 12, week 13, week 14, week 15, week 16, week 17"]
 for x in range:
     print("Your GPA is: " +str(finalGPA))
     
