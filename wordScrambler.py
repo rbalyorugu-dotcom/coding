@@ -17,24 +17,27 @@ def scrambleWordGame():
     correctWord = ""
 
     if randomWordSelect == 0:
-        print(wordPool[0])
+        correctWord= wordPool[0]
     elif randomWordSelect == 1:
-        print(wordPool[1])
+        correctWord= wordPool[1]
     elif randomWordSelect == 2:
-        print(wordPool[2])
+        correctWord= wordPool[2]
     elif randomWordSelect == 3:
-        print(wordPool[3])
-        correctWord = wordPool[3]
+        correctWord= wordPool[3]
 
     convertedSelection = list(correctWord)
     random.shuffle(convertedSelection)
     scrambled = "".join(convertedSelection)
     
-    print("Guess the correct word: " + scrambled)
-    userGuess = input()
-    if userGuess == correctWord:
-        print("You got it right!")
-    else:
-        print("Sorry, that is incorrect.")
+    for x in range(3):
+
+        print("Guess the correct word: " + scrambled)
+        userGuess = input()
+        if userGuess == correctWord:
+            break
+        else:
+            print("Sorry, that is incorrect.")
+
+
 
 scrambleWordGame()
