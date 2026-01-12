@@ -35,9 +35,10 @@ def scrambleWordGame():
         userGuess = input()
         if userGuess == correctWord:
             break
+
         else:
             print("Sorry, that is incorrect.")
-
+            print("number of guesses "+ str(userGuess))
 
 
 scrambleWordGame()
