@@ -4,23 +4,28 @@ def payCheckFilter(payRate, hours, daysWorked):
     savingsAccount = 0
 
     paycheck = payRate * hours * daysWorked
-
     print("My paycheck for working "+ str(daysWorked) + " days will be $" + str(paycheck))
 
 payCheckFilter(45, 8, 5)
 
-payRate = print("45 dollars")
-hours = print("8 hours")
-daysWorked = print("5 days")
+payRate = 45
+hours = 8
+daysWorked = 5
 
+paycheck = 1800
 
-paycheck = 1,800
-print("CheckingAccount balance: += paycheck * 5" + str(CheckingAccount))
+print("checkingAccount" += paycheck * 0.5")
+savingsAccount += paycheck * 0.25
+retirementAccount += paycheck * 0.25
+
+print("checkingAccount balance: += paycheck * 5" + str(checkingAccount))
 print("savingsAccount balance: += paycheck / 4" + str(savingsAccount))
 print("retirementAccount balance: += paycheck / 4" + str(retirementAccount))
 
-CheckingAccount = 450
-savingsAccount = 450
-retirementAccount = 900
+payRate = 45
+hours = 8
+daysWorked = 5
 
-payCheckFilter()
+
+
+payCheckFilter(payRate, hours, daysWorked)
